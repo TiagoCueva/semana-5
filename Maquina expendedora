@@ -17,3 +17,24 @@ else if (snack == "b") precio =4;
 else {
 Console.WriteLine("Producto invalido en snacks.");
 break;
+
+
+
+case 2: // Bebidas 
+Console.WriteLine("Ha elegido Bebidas:");
+Console.WriteLine("a. Agua (S/.2");
+Console.WriteLine("b. Gaseosa (S/3););
+Console.Write("elija un producto: ");
+string bebida =
+Console.ReadLine();
+if (bebida == "b")
+precio = 3;
+else
+Console.WriteLine("Producto invalido en Bebidas.");
+break;
+
+
+
+
+
+
