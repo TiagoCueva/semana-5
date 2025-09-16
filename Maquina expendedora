@@ -1,0 +1,19 @@
+int precio = 0;
+Console.WriteLine("MAQUINA EXPENDEDORA");
+Console.WriteLine("\n1.Snacks");
+Console.WriteLine("2.Bebidas");
+Console.WriteLine("3.Dulces");
+Console.WriteLine("\nElija una opción");
+int opcion = int.Parse(Console.ReadLine());
+switch (opcion){
+case 1: 
+Console.WriteLine("Ha elegido snacks:");
+Console.WriteLine("\na.Papas(s/.5)");
+Console.WriteLine("b.Galletas(s/.4)");
+Console.WriteLine("\nElija un producto:");
+string snack = Console.ReadLine();
+if (snack =="a") precio =5;
+else if (snack == "b") precio =4;
+else {
+Console.WriteLine("Producto invalido en snacks.");
+break;
