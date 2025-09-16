@@ -33,6 +33,32 @@ else
 Console.WriteLine("Producto invalido en Bebidas.");
 break;
 
+case 3: // Dulces
+Console.WriteLine("Ha elegido Dulces:");
+Console.WriteLine("a. Chocolate (S/.6)");
+Console.WriteLine("b. Caramelos (S/.2)");
+Console.Write("Elija un producto: ");
+string dulce = Console.ReadLine();
+if (dulce == "a")
+{
+precio = 6;
+}
+else if (dulce == "b")
+{
+precio = 2;
+}else
+{
+Console.WriteLine("Producto inválido en Dulces.");
+break;
+}
+    
+if (precio > 0)
+{
+Console.WriteLine("\nDebe pagar: S/." + precio);
+}
+    
+Console.WriteLine("\nGracias por su compra.");
+break;
 
 
 
