@@ -60,6 +60,27 @@ Console.WriteLine("\nDebe pagar: S/." + precio);
 Console.WriteLine("\nGracias por su compra.");
 break;
 
+CASO 3: // Dulces
+    Mostrar submenú:
+        a. Chocolate (S/.6)
+        b. Caramelos (S/.2)
+
+    Leer elección (producto)
+
+    SI producto == "a" ENTONCES
+        precio = 6
+    SINO SI producto == "b" ENTONCES
+        precio = 2
+    SINO
+        Mostrar "Producto inválido"
+    FIN SI
+FIN CASO
+
+DEFAULT:
+    Mostrar "Opción inválida del menú principal"
+FIN SWITCH
+FIN
+
 
 
 
